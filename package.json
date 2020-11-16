@@ -1,0 +1,22 @@
+{
+  "name": "movieQL",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/goodday860726/movieQL.git",
+  "author": "goodday860726@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "graphql-yoga": "^1.18.3",
+    "node-fetch": "^2.6.1"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-node": "^0.0.1-security",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1"
+  }
+}
